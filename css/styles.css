@@ -19,9 +19,10 @@
   outline: 2px solid tomato;
 }
 
-h1,h2,h3,h4,h5,h6,p {
+h1,h2,h3,h4,h5,h6,p{
   margin-top: 0;
   margin-bottom: 0;
+  padding: 0;
 }
 
 /*                       */
@@ -31,6 +32,11 @@ h1,h2,h3,h4,h5,h6,p {
 body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
+}
+
+h2,
+h3 {
+  color: var(--main-text-color);
 }
 
 .logo {
@@ -133,8 +139,7 @@ li {
 }
 
 .about {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
 }
 
 .about,
@@ -150,6 +155,7 @@ li {
 
 .activity-head,
 .our-team-head {
+  text-align: center;
   font-weight: 700;
   letter-spacing: 0.03em;
 }
@@ -178,13 +184,23 @@ li {
   color: var(--link-p-text-color);
 }
 
-h2,
-h3 {
-  color: var(--main-text-color);
+.activity {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .our-team {
+  padding-top: 94px;
   background-color: var(--back-darker-color);
+}
+
+.our-team-list {
+  padding-top: 50px;
+  padding-bottom: 94px;
+}
+
+.our-team-card img {
+  padding-bottom: 30px;
 }
 
 .our-team-card-head {
