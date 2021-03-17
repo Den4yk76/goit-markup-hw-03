@@ -23,30 +23,28 @@
   <body>
     <!-- header -->
     <header>
-      <div class="container">
-        <nav>
-          <a class="logo" href=""
-            >Web<span class="header-second-logo-color">Studio</span></a
-          >
-          <ul class="header-list">
-            <li>
+      <div class="container head-flex">
+        <nav class="header-nav">
+          <a class="logo" href="">Web<span class="header-second-logo-color">Studio</span></a>
+          <ul class="nav-list list">
+            <li class="item">
               <a class="header-links-text" href="./index.html">Студия</a>
             </li>
-            <li>
+            <li class="item">
               <a class="header-links-text" href="./portfolio.html">Портфолио</a>
             </li>
-            <li><a class="header-links-text" href="">Контакты</a></li>
+            <li class="item"><a class="header-links-text" href="">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="header-list">
-          <li>
+        <ul class="contacts-list list">
+          <li class="item">
             <a
               class="contacts header-contacts-text"
               href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="item">
             <a class="contacts header-contacts-text" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
@@ -105,7 +103,7 @@
       <section class="activity">
         <div class="container">
           <h2 class="activity-head">Чем мы занимаемся</h2>
-          <ul>
+          <ul class="img-list list">
             <li>
               <img
                 src="./images/box-1.jpg"
@@ -134,7 +132,7 @@
       <section class="our-team">
         <div class="container">
           <h2 class="our-team-head">Наша команда</h2>
-        <ul class="our-team-list">
+        <ul class="our-team-list list">
           <li class="our-team-card">
             <img src="./images/igor.jpg" alt="Игорь Демьяненко" width="270" />
             <h3 class="our-team-card-head">Игорь Демьяненко</h3>
@@ -161,11 +159,12 @@
     </main>
     <!-- footer -->
     <footer>
-      <a class="logo" href=""
+      <div class="container">
+        <a class="logo" href=""
         >Web<span class="footer-second-logo-color">Studio</span></a
       >
-      <address>
-        <ul>
+      <address class="adr-list">
+        <ul class="list">
           <li class="footer-li-text">г. Киев, пр-т Леси Украинки, 26</li>
           <li>
             <a
@@ -181,6 +180,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
