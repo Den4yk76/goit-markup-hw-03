@@ -148,6 +148,7 @@ header {
 .about-p-text,
 .hero-button {
   font-size: 14px;
+
 }
 
 .header-contacts-text {
@@ -335,6 +336,7 @@ footer li:last-child {
 .footer-contacts-text {
   line-height: 1.71;
   color: var(--link-p-text-color);
+  font-style: normal;
 }
 
 /*                       */
