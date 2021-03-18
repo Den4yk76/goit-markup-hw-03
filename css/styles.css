@@ -405,8 +405,7 @@ margin-bottom: 94px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-top: 20px;
-  margin-bottom: 4px;
+  margin: 20px 24px 4px 24px; 
 }
 
 .projects-p-text {
@@ -414,5 +413,5 @@ margin-bottom: 94px;
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--link-p-text-color);
-  margin-bottom: 20px;
+  margin: 0 24px 20px 24px;
 }
