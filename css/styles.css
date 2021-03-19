@@ -46,6 +46,12 @@ h1,h2,h3,h4,h5,h6,p{
 	color: inherit;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /*                       */
 /* index.html styles */
 /*                       */
@@ -132,17 +138,14 @@ header {
 }
 
 .header-links-text:hover,
-.header-links-text:focus {
+.header-links-text:focus,
+.contacts:hover,
+.contacts:focus {
   color: var(--highlight-color);
 }
 
 .contacts {
   color: var(--link-p-text-color);
-}
-
-.contacts:hover,
-.contacts:focus {
-  color: var(--highlight-color);
 }
 
 .header-contacts-text,
@@ -282,18 +285,6 @@ li {
   display: flex;
 }
 
-.our-team-card img {
-  margin-bottom: 30px;
-}
-
-.our-team-card-head {
-  font-size: 16px;
-  font-weight: 500;
-
-  margin-bottom: 10px;
-  text-align: center;
-}
-
 .our-team-card {
   background-color: var(--back-light-color);
   margin-right: 30px;
@@ -305,10 +296,17 @@ li {
   margin-right: 0px;
 }
 
-.our-team-p-text {
+.card-text .our-team-card-head {
   font-size: 16px;
+  font-weight: 500;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+}
 
-  margin-bottom: 30px;
+.card-text .our-team-p-text {
+  font-size: 16px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -362,7 +360,6 @@ padding-bottom: 94px;
 
 .projects-buttons button {
   display: flex;
-  color: #212121;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -379,9 +376,16 @@ padding-bottom: 94px;
   color: var(--main-text-color);
 }
 
+.projects-buttons .first {
+  background-color: var(--highlight-color);
+  color: var(--back-light-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 .projects-buttons-item {
   margin-right: 8px;
 }
+
 .projects-buttons-item:last-child {
   margin-right: 0px;
 }
