@@ -401,8 +401,13 @@ margin-bottom: 94px;
   box-sizing: border-box;
   margin-left: 27px;
   margin-top: 30px;
-  border: 1px solid #EEEEEE;
+  
   flex-basis: calc((100% - 90px) / 3);
+}
+
+.projects-set-item .border {
+  border: 1px solid #EEEEEE;
+  margin-top: -5px ;
 }
 
 .projects-head {
