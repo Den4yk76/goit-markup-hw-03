@@ -96,7 +96,6 @@ header {
 .nav-list,
 .contacts-list {
   letter-spacing: 0.02em;
-  /* padding: 32px 0 32px 0; */
   margin: 0;
   display: flex;
 }
@@ -350,16 +349,15 @@ footer li:last-child {
 /*                       */
 
 .projects {
-margin-bottom: 94px;
+padding-bottom: 94px;
 }
 
 .projects-buttons {
   display: flex;
   margin: 0 auto;
   justify-content: center;
-  margin-top: 94px;
-  margin-bottom: 50px;
-  /* margin-right: 8px; */
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .projects-buttons button {
