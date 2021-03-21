@@ -332,6 +332,7 @@ footer {
 footer .logo {
   display: inline-block;
   margin: 0 0 20px 0;
+  padding: 0;
 }
 
 footer li {
